@@ -1,0 +1,33 @@
+div#home {
+    width: 100%;
+    }
+
+div#craigdeanto {
+    text-align: center;
+    }
+
+div#navigation {
+    text-align: center;
+    }
+
+#navigation ul {
+    list-style: none;
+    padding-left: 0px;
+    }
+
+#navigation li {
+    display: inline;
+    padding: 0% 3% 0% 3%;
+    }
+
+#navigation li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    }
+
+div#top {
+    background: black;
+    height: 1000px;
+    width: 100%;
+}
