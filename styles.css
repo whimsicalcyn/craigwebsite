@@ -1,18 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 div#home {
      width: 100%;
+     background: white;
      }
 
  div#craigdeanto {
      text-align: center;
+     padding: 5px;
+     }
+
+ #craigdeanto h1 {
+     margin: 0;
      }
 
  div#navigation {
      text-align: center;
+     padding: 10px 0;
+     width: 100%;
      }
 
  #navigation ul {
      list-style: none;
      padding-left: 0px;
+     margin: 0;
      }
 
  #navigation li {
@@ -31,3 +45,7 @@ div#home {
      height: 1000px;
      width: 100%;
  }
+
+#content {
+  
+}

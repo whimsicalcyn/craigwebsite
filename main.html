@@ -2,11 +2,12 @@
 <html lang="en-US">
 
  <head>
-     <link rel="stylesheet" type="text/css" href="styles.css">
-     <title>Craig Deanto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Craig Deanto</title>
  </head>
 
- <body>
+ <body onscroll="fixNav()">
      <div id="home">
          <div id="craigdeanto">
              <h1>Craig Deanto</h1>
@@ -20,17 +21,36 @@
              </ul>
          </div>
      </div>
-     <div id="top">
 
+     <div id="content">
 
+       <div id="top" style="color:white">
+          1<br />
+          2<br />
+          3<br />
+          4<br />
+          5<br />
+          6<br />
 
-
-
-
+       </div>
 
      </div>
 
+     <script>
+      function fixNav() {
+        if (window.pageYOffset > 43 ) {
+          document.getElementById('navigation').style.position = "fixed"
+          document.getElementById('navigation').style.top = 0
+          document.getElementById('content').style.marginTop = "42px"
 
+        } else {
+          document.getElementById('navigation').style.background = "white"
+          document.getElementById('navigation').style.position = ""
+          document.getElementById('content').style.marginTop = "0px"
+
+        }
+      }
+     </script>
 
 
  </body>
